@@ -1,0 +1,33 @@
+* Darken CSS
+  Darken CSS already dark style sheets
+
+** Why?
+   Sometimes, dark is not dark enough
+
+** Like what?
+[[./dark.png]]
+[[./black.png]]
+
+** Usage
+  #+BEGIN_SRC shell
+  cat /path/to/style.css | python3 ./darken-css.py > /path/to/new.css
+  #+END_SRC
+
+** Options
+  #+BEGIN_SRC 
+  python3 darken-css.py --help
+  usage: darken-css.py [-h] [--darkness N] [--sd-thr N] [--avg-thr N]
+
+  Darken CSS style sheets
+
+  optional arguments:
+  -h, --help    show this help message and exit
+  --darkness N  How much darkness to be added
+  --sd-thr N    Standard deviation threshold. The higher the more colorful
+  colors will be darkened (0 will only darken grayscale colors)
+  --avg-thr N   Average threshold. The higher the more light colors will be
+  dimmed
+  #+END_SRC
+
+** License
+  GPL-3.0
