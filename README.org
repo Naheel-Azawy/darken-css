@@ -5,8 +5,7 @@
    Sometimes, dark is not dark enough
 
 ** Like what?
-[[./dark.png]]
-[[./black.png]]
+[[./screenshot.png]]
 
 ** Usage
   #+BEGIN_SRC shell
