@@ -7,6 +7,8 @@
 ** Like what?
 [[./screenshot.png]]
 
+From left to right, default AdwaitaRefresh dark, --darkness 3 --avg-thr 65, --darkness 15 --avg-thr 65
+
 ** Usage
   #+BEGIN_SRC shell
   cat /path/to/style.css | python3 ./darken-css.py > /path/to/new.css
